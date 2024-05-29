@@ -61,7 +61,6 @@ class ContTimer {
   }
 } // Class CountTimer End
 
-
 const pauseButton = document.querySelector('#pause');
 const resumeButton = document.querySelector('#resume');
 const restartButton = document.querySelector('#restart');
@@ -115,7 +114,6 @@ startTimer.addEventListener('click', function(){
 
   let duration = 1; 
   let FixedGetMinutes = 60;
-  // Add hours if defined and non-zero, but only if days is not 0
   if (hours > 0 ) {
     duration += hours * FixedGetMinutes * 60 * 1;
   } else {
