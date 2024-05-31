@@ -19,7 +19,7 @@ button{
   justify-content: center;
   height: 100vh;
   flex-direction: column;
-  background-image: url('../images/bg-image.webp');
+  background-image: url('https://raw.githubusercontent.com/Mahen497/count-down-timer-javascript/main/images/bg-image.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
